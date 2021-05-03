@@ -56,7 +56,7 @@ var flexibleAxios = {
 		return instance.post(url, data, config);
 	},
 	/**
-	 * @desc Upload file Method(Specail instance of post method),
+	 * @desc Upload file Method(Specail instance of post method)
 	 * @param {String} url => request url.(required)
 	 * @param {Object} formData => FormData object, support binary file and other key-value data.(required)
 	 */

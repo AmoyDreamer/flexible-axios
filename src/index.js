@@ -2,8 +2,8 @@
  * @author Allen Liu
  * @desc A library of http request based on axios.
  */
-"use strict"
-var axios = require('axios')
+'use strict';
+var axios = require('axios');
 /**
  * @desc Determine if we're running in a standard nodejs environment
  */
@@ -17,9 +17,17 @@ var instance = axios.create({
 //set post method default Content-Type is application/json
 instance.defaults.headers.post['Content-Type'] = 'application/json';
 //http request interceptor
-instance.interceptors.request.use(config => config, err => Promise.reject(err));
+instance.interceptors.request.use(function(config) {
+	return config;
+}, function(err) {
+	return Promise.reject(err);
+});
 //http response interceptor
-instance.interceptors.response.use(response => response.status == 200 && response.data ? response.data : null, err => Promise.reject(err));
+instance.interceptors.response.use(function(response) {
+	return response.status == 200 && response.data ? response.data : null;
+}, function(err) {
+	return Promise.reject(err);
+});
 //module object
 var flexibleAxios = {
 	/**
@@ -53,7 +61,7 @@ var flexibleAxios = {
 	 * @param {Object} formData => FormData object, support binary file and other key-value data.(required)
 	 */
 	uploadFile: function(url, formData) {
-		let config = {
+		var config = {
 			method: 'post',
 			url: url,
 			data: formData,

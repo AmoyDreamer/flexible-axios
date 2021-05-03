@@ -41,7 +41,7 @@ var flexibleAxios = {
 	/**
 	 * @desc Get method
 	 * @param {String} url => request url.(required)
-	 * @param {Object} config => request config.(optional). Including headers|timeout, etc. Default value is null, further information can be queried related documents https://axios-http.com/docs/req_config
+	 * @param {Object} config => request config.(optional). Including headers|timeout, etc. Default value is null, further information can be queried related document https://axios-http.com/docs/req_config
 	**/
 	get: function(url, config=null) {
 		return instance.get(url, config);
@@ -50,7 +50,7 @@ var flexibleAxios = {
 	 * @desc Post method
 	 * @param {String} url => request url.(required)
 	 * @param {Object} data => request data.(optional). Default value is null.
-	 * @param {Object} config => request config.(optional). Including headers|timeout, etc. Default value is null, further information can be queried related documents https://axios-http.com/docs/req_config
+	 * @param {Object} config => request config.(optional). Including headers|timeout, etc. Default value is null, further information can be queried related document https://axios-http.com/docs/req_config
 	 */
 	post: function(url, data=null, config=null) {
 		return instance.post(url, data, config);

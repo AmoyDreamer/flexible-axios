@@ -18,7 +18,7 @@ const flexibleAxios = require('flexible-axios')
 
 flexibleAxios.get(url, config)
 - {String} url => request url.(required)
-- {Object} config => request config.(optional). Including headers|timeout, etc. Default value is null, further information can be queried related documents https://axios-http.com/docs/req_config
+- {Object} config => request config.(optional). Including headers|timeout, etc. Default value is null, further information can be queried related document https://axios-http.com/docs/req_config
 
 
 ### Post request
@@ -26,7 +26,7 @@ flexibleAxios.get(url, config)
 flexibleAxios.post(url, data, config)
 - {String} url => request url.(required)
 - {Object} data => request data.(optional). Default value is null.
-- {Object} config => request config.(optional). Including headers|timeout, etc. Default value is null, further information can be queried related documents https://axios-http.com/docs/req_config
+- {Object} config => request config.(optional). Including headers|timeout, etc. Default value is null, further information can be queried related document https://axios-http.com/docs/req_config
 
 #### Notice
 Post request set default Content-Type is 'application/json'. If you want to rewrite Content-Type, let's see it:

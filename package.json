@@ -11,7 +11,13 @@
     "url": "git+https://github.com/AmoyDreamer/flexible-axios.git"
   },
   "keywords": [
-    "axios"
+    "http",
+    "request",
+    "promise",
+    "browser",
+    "nodejs",
+    "axios",
+    "http request"
   ],
   "author": "Allen Liu",
   "license": "MIT",

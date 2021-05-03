@@ -20,6 +20,7 @@ instance.defaults.headers.post['Content-Type'] = 'application/json';
 instance.interceptors.request.use(config => config, err => Promise.reject(err));
 //http response interceptor
 instance.interceptors.response.use(response => response.status == 200 && response.data ? response.data : null, err => Promise.reject(err));
+//module object
 var flexibleAxios = {
 	/**
 	 * @desc Set http header key

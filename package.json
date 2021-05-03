@@ -1,0 +1,25 @@
+{
+  "name": "flexible-axios",
+  "version": "1.0.0",
+  "description": "A library of http request based on axios.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmoyDreamer/flexible-axios.git"
+  },
+  "keywords": [
+    "axios"
+  ],
+  "author": "Allen Liu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AmoyDreamer/flexible-axios/issues"
+  },
+  "homepage": "https://github.com/AmoyDreamer/flexible-axios#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}

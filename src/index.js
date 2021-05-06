@@ -1,6 +1,6 @@
 /**
  * @author Allen Liu
- * @desc A library of http request based on axios.
+ * @desc A library of http request based on axios that supports the browser and node.js.
  */
 'use strict';
 var axios = require('axios');
@@ -78,3 +78,12 @@ var flexibleAxios = {
 	}
 }
 module.exports = flexibleAxios
+// //export module
+// if (typeof exports !== 'undefined') {
+// 	if (typeof module !== 'undefined' && module.exports) {
+// 		exports = module.exports = flexibleAxios;
+// 	}
+// 	exports.Slider = flexibleAxios;
+// } else {
+// 	this.Slider = flexibleAxios;
+// }

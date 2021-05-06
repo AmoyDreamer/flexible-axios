@@ -2,6 +2,10 @@
 A library of http request based on [axios](https://github.com/axios/axiosÂ) that supports the browser and node.js.
 
 ## Install
+### Using unpkg CDN
+```
+<script src="https://unpkg.com/flexible-axios/dist/index.min.js"></script>
+```
 ### Using npm
 ```bash
 npm install flexible-axios --save

@@ -78,12 +78,3 @@ var flexibleAxios = {
 	}
 }
 module.exports = flexibleAxios
-// //export module
-// if (typeof exports !== 'undefined') {
-// 	if (typeof module !== 'undefined' && module.exports) {
-// 		exports = module.exports = flexibleAxios;
-// 	}
-// 	exports.Slider = flexibleAxios;
-// } else {
-// 	this.Slider = flexibleAxios;
-// }
